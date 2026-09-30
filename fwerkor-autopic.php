@@ -3,7 +3,7 @@
  * Plugin Name: FWERKOR Auto Pic
  * Plugin URI: https://github.com/fwerkor/wordpress-plugin-fwerkor-autopic
  * Description: Automatic featured images for WordPress posts using existing content images or deterministic generated artwork.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: FWERKOR
  * License: GPL-2.0-or-later
  * Requires at least: 6.0

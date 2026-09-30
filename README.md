@@ -1,13 +1,23 @@
-# FWERKOR AutoPic
+# FWERKOR Auto Pic
 
-Generates clean featured-image title cards for WordPress posts that do not have a manual featured image.
+Automatic featured images for WordPress posts.
 
-## Behavior
-- Manual featured images always win.
-- Generated images are tracked by post meta.
-- A title change regenerates only images created by this plugin.
-- Uses local Imagick and a system font; no remote image service.
-- Site name is read from WordPress at runtime.
-- No site hostname is hard-coded.
+## Features
 
-Generated attachments are preserved on uninstall so existing posts do not break.
+- Never overwrites a manually selected featured image
+- Prefers an existing post image or attached image
+- Falls back to deterministic abstract artwork generated with GD
+- No external image API
+- No bundled font dependency
+- Generated artwork remains stable until relevant post/image settings change
+- Configurable output dimensions
+- Bulk processing for published posts
+- No site-specific hostname
+
+## Requirements
+
+WordPress 6.0+, PHP 8.0+, and the GD extension for generated fallback artwork.
+
+## License
+
+GPL-2.0-or-later.
